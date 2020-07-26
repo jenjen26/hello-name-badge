@@ -1,0 +1,88 @@
+*{
+  font-size: 16px;
+  
+}
+
+body{
+  background: rgb(89%, 85%, 83%);
+}
+
+
+#outside-box{
+  display: grid;
+  grid-template-rows: 80px 120px 15px;
+  max-width: 25vw;
+  
+  
+}
+
+#top-label{
+  background-color: rgb(221, 29, 39);
+  grid-row: 1;
+  border-radius: 20px 20px 0px 0px;
+}
+
+#hello-script{
+  color: rgb(97%, 97%, 97%);
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 0.3rem;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  grid-row: 1;
+  
+  
+}
+
+#name-is{
+  color: rgb(97%, 97%, 97%);
+  margin-top: 0px;
+  text-align: center;
+  font-family: "Arial";
+  letter-spacing: 0.1rem;
+  grid-row: 1;
+  position: relative;
+  bottom: 10px;
+ 
+}
+
+#middle-label{
+  background-color: rgb(97%, 97%, 97%);
+}
+
+#first-name-script{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2.8rem;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 0.3rem;
+  grid-row: 2;
+  margin-bottom: 0px;
+}
+
+hr{
+  height: 3px;
+  background-color: #e83b32;
+  margin-bottom: 0px;
+}
+
+
+#greeting{
+  margin-top: 3px;
+  grid-row: 2;
+  text-align: center;
+  font-family: "Arial";
+  color: rgb(221, 29, 39);
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 0.1rem;
+}
+
+#bottom-label{
+  background-color: rgb(221, 29, 39);
+  grid-row: 3;
+  border-radius: 0px 0px 20px 20px;
+}
